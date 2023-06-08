@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+.navbar-stye {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.row-cust {
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.clear-back {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#burgerlogo-head {
+    max-height: 100px;
+}
+
+#burgerlogo-foot {
+    max-height: 150px;
+}
+
+.cust-caracap {
+    font-size: 170%;
+    bottom: 20%;
+}
+.col-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#col-img-left {
+    background-image: url("/burger/Photos/pic4.jpg");
+}
+
+#col-img-right {
+    background-image: url("/burger/Photos/pic5.jpg");
+}
+
+.footer-info div {
+    display: inline-block;
+}
+
+.page-terms div {
+    display: inline-block;
+}
+
+.page-terms ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.page-terms ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.top-hover li a:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.footer-icon {
+    margin-right: 10px;
+}
+
+.socials {
+    margin-right: 0px !important;
+    margin-left: 10px;
+}
+
+.social-end {
+    padding-right: 8px;
+}
+
+.socials a {
+    color: inherit;
+}
+
+.socials a:hover {
+    color: #007bff;
+}
+
+.policy {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.policy:hover {
+    text-decoration: underline !important;
+}
+
+.text-inherit {
+    color: inherit;
+}
+
+.text-large {
+    font-size: 1.2rem;
+}
+
+#cookie-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    color: whitesmoke;
+    padding: 0 32px;
+    box-shadow: 0 -2px 15px;
+    transition: 400ms;
+    z-index: 100;
+}
+
+#cookie-container a {
+    color: #f5f6fa;
+}
+
+#cookie-btn {
+    background: #000;
+    border: 0;
+    color: whitesmoke;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+@media (max-width: 767px) {
+    .navbar-stye {
+        position: relative;
+        background-color: rgba(0,0,0,1);
+    }
+    #navbarMenu {
+        position: fixed;
+        margin-top: 13px;
+        left:0;
+        width: 100%;
+        margin-right: auto;
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 80%);
+    }
+    .col-cust {
+        padding-right: 0px;
+    }
+    .navbar-cust {
+        border-bottom: 0px !important;
+    }
+    .navbar-item-last {
+        padding-bottom: 8px;
+    }
+    #burgerlogo-foot {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
